@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+.Header{
+    background-color: #036;    
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+}
+
+.Header-logo{
+    font-size: 3rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.pre-logo, .post-logo{
+    pointer-events: none;
+}
+
+.pre-logo{
+    color: #F8F8F8;
+}
+
+.post-logo{
+    color: #F00;
+}
+
+.Header-links{
+    margin: auto;
+}
+
+.Header .links{
+    margin: auto;
+}
+
+.links li{
+    display: inline-block;
+    color: #e8e8e8;
+    margin: 1rem;
+}
+
+.links li:hover{
+    color: #FFF;
+}
